@@ -69,6 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\appModule.js" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -77,10 +78,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
-    <Content Include="ext-module\nav-framework\navFrameworkController.js" />
-    <Content Include="ext-module\nav-framework\navFrameworkDirective.js" />
-    <Content Include="ext-module\nav-framework\navFrameworkTemplate.html" />
-    <Content Include="ext-module\nav-framework\navFramworkModule.js" />
+    <Content Include="ext-module\navDashboard\navDashboardModule.js" />
+    <Content Include="ext-module\navFramework\navFrameworkController.js" />
+    <Content Include="ext-module\navFramework\navFrameworkDirective.js" />
+    <Content Include="ext-module\navFramework\navFrameworkModule.js" />
+    <Content Include="ext-module\navFramework\navFrameworkTemplate.html" />
+    <Content Include="ext-module\navMenu\navMenuModule.js" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-mocks.js" />
@@ -158,6 +161,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

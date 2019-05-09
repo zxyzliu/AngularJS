@@ -85,6 +85,7 @@
     <Content Include="ext-module\navFramework\navFrameworkDirective.js" />
     <Content Include="ext-module\navFramework\navFrameworkModule.js" />
     <Content Include="ext-module\navFramework\navFrameworkTemplate.html" />
+    <Content Include="ext-module\navMenu\navMenu.css" />
     <Content Include="ext-module\navMenu\navMenuController.js" />
     <Content Include="ext-module\navMenu\navMenuDirective.js" />
     <Content Include="ext-module\navMenu\navMenuItemDirective.js" />

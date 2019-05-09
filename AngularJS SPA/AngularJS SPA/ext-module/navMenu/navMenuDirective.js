@@ -2,7 +2,6 @@
 
 angular.module('navMenu').directive('navMenu', function () {
     return {
-        restrict: 'AE',
         transclude: true,
         scope: {
 

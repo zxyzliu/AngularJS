@@ -2,9 +2,13 @@
 <html ng-app="app">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Whitwater Adventures</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="app/app.css" rel="stylesheet" />
+    <link href="ext-module/navFramework/navFramework.css" rel="stylesheet" />
 
     <script src="Scripts/jquery-3.4.1.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
@@ -12,6 +16,9 @@
     <script src="ext-module/navMenu/navMenuModule.js"></script>
 
     <script src="ext-module/navDashboard/navDashboardModule.js"></script>
+    <script src="ext-module/navMenu/navMenuController.js"></script>
+    <script src="ext-module/navMenu/navMenuDirective.js"></script>
+    <script src="ext-module/navMenu/navMenuItemDirective.js"></script>
 
     <script src="ext-module/navFramework/navFrameworkModule.js"></script>
     <script src="ext-module/navFramework/navFrameworkController.js"></script>
@@ -20,6 +27,16 @@
     <script src="app/appModule.js"></script>
 </head>
 <body class="container-fluid">
-    <nav-framework></nav-framework>
+    <nav-framework title="Whitewater Adventures"
+                   subtitle="Administrative App"
+                   icon-file="../../img/kayak-icon-flat.png">
+
+        <nav-menu>
+            <nav-menu-item label="Dashboard">Dashboard</nav-menu-item>
+            <nav-menu-item label="Locations">Locations</nav-menu-item>
+            <nav-menu-item label="Raft Guides">Raft Guides</nav-menu-item>
+        </nav-menu>
+
+    </nav-framework>
 </body>
 </html>

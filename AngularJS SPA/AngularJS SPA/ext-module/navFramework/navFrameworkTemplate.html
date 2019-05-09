@@ -1,1 +1,21 @@
-﻿<h1>Framework Works!!!</h1>
+﻿<div class="nav-title-bar">
+    <div class="row">
+        <div class="nav-logo-area col-sm-6">
+            <img class="nav-icon" ng-src="{{ iconFile }}" />
+            <div class="nav-title-area">
+                <p class="nav-logo-title">{{ title }}</p>
+                <p class="nav-logo-subtitle">{{ subtitle }}</p>
+            </div>
+        </div>
+
+        <div class="nav-right-side-controls col-sm-6">
+            <div>
+                <button class="btn btn-primary">Botton 1</button>
+                <button class="btn btn-success">Button 2</button>
+                <button class="btn btn-warning">Button 3</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div ng-transclude></div>

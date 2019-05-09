@@ -69,6 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.css" />
     <Content Include="app\appModule.js" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -79,12 +80,19 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="ext-module\navDashboard\navDashboardModule.js" />
+    <Content Include="ext-module\navFramework\navFramework.css" />
     <Content Include="ext-module\navFramework\navFrameworkController.js" />
     <Content Include="ext-module\navFramework\navFrameworkDirective.js" />
     <Content Include="ext-module\navFramework\navFrameworkModule.js" />
     <Content Include="ext-module\navFramework\navFrameworkTemplate.html" />
+    <Content Include="ext-module\navMenu\navMenuController.js" />
+    <Content Include="ext-module\navMenu\navMenuDirective.js" />
+    <Content Include="ext-module\navMenu\navMenuItemDirective.js" />
+    <Content Include="ext-module\navMenu\navMenuItemTemplate.html" />
     <Content Include="ext-module\navMenu\navMenuModule.js" />
+    <Content Include="ext-module\navMenu\navMenuTemplate.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="img\kayak-icon-flat.png" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />

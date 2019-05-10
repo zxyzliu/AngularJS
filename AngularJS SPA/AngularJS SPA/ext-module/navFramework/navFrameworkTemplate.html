@@ -6,6 +6,12 @@
                 <p class="nav-logo-title">{{ title }}</p>
                 <p class="nav-logo-subtitle">{{ subtitle }}</p>
             </div>
+            <div ng-if="isMenuButtonVisible" ng-click="menuButtonClicked()" 
+                 class="nav-collapsed-menu pull-right">
+                <button type="button" class="btn nav-menu-button">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
         </div>
 
         <div class="nav-right-side-controls col-sm-6">
@@ -18,3 +24,7 @@
     </div>
 </div>
 <div ng-transclude></div>
+
+<div style="position: absolute; left:220px; top: 200px; color: red; font-size: 44px;">
+    {{routeString}}
+</div>

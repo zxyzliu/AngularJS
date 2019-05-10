@@ -8,28 +8,49 @@
     padding-top: 30px;
 }
 
-    .nav-menu-area .btn:hover {
-        color: #ccc;
-    }
+.nav-menu-area ul {
+    padding-left: 0;
+}
+
+.nav-menu-area .btn:hover {
+    color: #ccc;
+}
 
 .nav-menu {
     list-style-type: none;
     vertical-align: top;
 }
 
-    .nav-menu ul {
-        display: inline;
-        list-style-type: none;
-        padding-left: 0;
-    }
+.nav-menu ul {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0;
+}
 
-    .nav-menu li {
-        line-height: 3em;
-        cursor: pointer;
-    }
+.nav-menu li {
+    line-height: 3em;
+    cursor: pointer;
+}
+
+.nav-menu li div {
+    display: inline-block;
+    width: 90%;
+    padding-left: 16px;
+}
 
 .nav-selectable-item:hover {
     background-color: #555;
+}
+
+.nav-menu-icon {
+    margin-right: 10px;
+}
+
+.nav-menu-active-indicator {
+    float: right;
+    color: #ddd;
+    margin-right: 0;
+    margin-top: 8px;
 }
 
 .nav-noselect {

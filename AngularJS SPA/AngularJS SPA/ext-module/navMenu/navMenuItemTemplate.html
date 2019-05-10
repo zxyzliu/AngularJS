@@ -1,1 +1,7 @@
-﻿<li class="nav-selectable-item">{{ label }}</li>
+﻿<li class="nav-selectable-item">
+    <div class="nav-noselect">
+        <i class="fa {{icon}} nav-menu-icon"></i>
+        {{label}}
+    </div>
+    <i class="fa fa-2x fa-caret-left nav-menu-active-indicator" ng-if="isActive()"></i>
+</li>

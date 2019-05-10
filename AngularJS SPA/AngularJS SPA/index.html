@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <title>Whitwater Adventures</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="app/app.css" rel="stylesheet" />
@@ -14,9 +14,9 @@
     <script src="Scripts/jquery-3.4.1.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
 
-    <script src="ext-module/navMenu/navMenuModule.js"></script>
-
     <script src="ext-module/navDashboard/navDashboardModule.js"></script>
+
+    <script src="ext-module/navMenu/navMenuModule.js"></script>
     <script src="ext-module/navMenu/navMenuController.js"></script>
     <script src="ext-module/navMenu/navMenuDirective.js"></script>
     <script src="ext-module/navMenu/navMenuItemDirective.js"></script>
@@ -26,6 +26,7 @@
     <script src="ext-module/navFramework/navFrameworkDirective.js"></script>
 
     <script src="app/appModule.js"></script>
+    <script src="app/appConfig.js"></script>
 </head>
 <body class="container-fluid">
     <nav-framework title="Whitewater Adventures"
@@ -33,9 +34,9 @@
                    icon-file="../../img/kayak-icon-flat.png">
 
         <nav-menu>
-            <nav-menu-item label="Dashboard">Dashboard</nav-menu-item>
-            <nav-menu-item label="Locations">Locations</nav-menu-item>
-            <nav-menu-item label="Raft Guides">Raft Guides</nav-menu-item>
+            <nav-menu-item label="Dashboard" icon="fa-dashboard" route="dashboard"></nav-menu-item>
+            <nav-menu-item label="Locations" icon="fa-location-arrow" route="locations"></nav-menu-item>
+            <nav-menu-item label="Raft Guides" icon="fa-user" route="user"></nav-menu-item>
         </nav-menu>
 
     </nav-framework>
